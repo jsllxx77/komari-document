@@ -1,36 +1,14 @@
 import { defineConfig } from "vitepress";
 
-const isProduction = process.env.NODE_ENV === "production";
-
-const productionHead = [
-  [
-    "script",
-    {
-      async: "",
-      src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2394611077475390",
-      crossorigin: "anonymous",
-    },
-  ],
-  [
-    "script",
-    {
-      async: "",
-      src: "/assets/cn.js",
-      crossorigin: "anonymous",
-    },
-  ],
-];
-
 const sharedHead = [
   [
     "link",
     {
       rel: "icon",
       type: "image/png",
-      href: "/assets/favicon.png",
+      href: "/komari-document/assets/favicon.png",
     },
   ],
-  ...(isProduction ? productionHead : []),
 ];
 
 const zhNav = [
@@ -174,7 +152,7 @@ const enSidebar = [
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/",
+  base: "/komari-document/",
   title: "Komari",
   description: "Komari Monitor Documentation",
   head: sharedHead,
@@ -186,7 +164,7 @@ export default defineConfig({
     },
   },
   sitemap: {
-    hostname: "https://komari-document.pages.dev",
+    hostname: "https://jsllxx77.github.io/komari-document",
   },
   locales: {
     root: {
@@ -210,7 +188,7 @@ export default defineConfig({
         },
         editLink: {
           pattern:
-            "https://github.com/komari-monitor/komari-document/edit/main/:path",
+            "https://github.com/jsllxx77/komari-document/edit/main/:path",
           text: "在 GitHub 上编辑此页",
         },
       },
@@ -236,7 +214,7 @@ export default defineConfig({
         },
         editLink: {
           pattern:
-            "https://github.com/komari-monitor/komari-document/edit/main/:path",
+            "https://github.com/jsllxx77/komari-document/edit/main/:path",
           text: "Edit this page on GitHub",
         },
       },
@@ -295,7 +273,7 @@ export default defineConfig({
       copyright: "Copyright 2025-present Komari Monitor",
     },
     socialLinks: [
-      { icon: "github", link: "https://github.com/komari-monitor/komari" },
+      { icon: "github", link: "https://github.com/jsllxx77/komari" },
     ],
   },
 });
