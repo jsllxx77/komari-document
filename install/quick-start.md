@@ -7,7 +7,7 @@
 适用于使用了 `systemd` 的发行版（Ubuntu、Debian...）。
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/komari-monitor/komari/main/install-komari.sh -o install-komari.sh
+curl -fsSL https://raw.githubusercontent.com/jsllxx77/komari/main/install-komari.sh -o install-komari.sh
 chmod +x install-komari.sh
 sudo ./install-komari.sh
 ```
@@ -21,7 +21,7 @@ docker run -d \
   -v $(pwd)/data:/app/data \
   --name komari \
   --restart unless-stopped \
-  ghcr.io/komari-monitor/komari:latest
+  ghcr.io/jsllxx77/komari:latest
 docker logs komari
 ```
 

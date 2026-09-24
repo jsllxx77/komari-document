@@ -11,7 +11,7 @@ docker run -d \
   -v $(pwd)/data:/app/data \
   --name komari \
   --restart unless-stopped \
-  ghcr.io/komari-monitor/komari:latest
+  ghcr.io/jsllxx77/komari:latest
 ```
 
 :::tip
@@ -43,7 +43,7 @@ docker run -d \
   -v $(pwd)/data:/app/data \
   --name komari \
   --restart unless-stopped \
-  ghcr.io/komari-monitor/komari:latest
+  ghcr.io/jsllxx77/komari:latest
 ```
 
 This command:
@@ -69,7 +69,7 @@ Create `docker-compose.yml`:
 ```yaml
 services:
   komari:
-    image: ghcr.io/komari-monitor/komari:latest
+    image: ghcr.io/jsllxx77/komari:latest
     container_name: komari
     ports:
       - "25774:25774"

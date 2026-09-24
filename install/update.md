@@ -12,7 +12,7 @@
 从 ghcr.io 拉取 Komari 的最新镜像，以确保您拥有最新的功能和修复。
 
 ```bash
-docker pull ghcr.io/komari-monitor/komari:latest
+docker pull ghcr.io/jsllxx77/komari:latest
 ```
 
 ### 步骤 2：停止并移除当前运行的容器
@@ -40,7 +40,7 @@ docker run -d \
   -p 25774:25774 \
   -v $(pwd)/data:/app/data \
   --name komari \
-  ghcr.io/komari-monitor/komari:latest
+  ghcr.io/jsllxx77/komari:latest
 ```
 
 **重要提示**：

@@ -14,7 +14,7 @@ npm run build
 ## Build the Backend
 
 ```bash
-git clone https://github.com/komari-monitor/komari
+git clone https://github.com/jsllxx77/komari
 cd komari
 ```
 

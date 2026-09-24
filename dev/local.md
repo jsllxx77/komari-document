@@ -17,7 +17,7 @@ Komari 使用了 Go + React 技术栈进行开发。如果您想在本地进行�
 1. 后端
 
 ```bash
-git clone https://github.com/komari-monitor/komari
+git clone https://github.com/jsllxx77/komari
 ```
 
 2. 前端

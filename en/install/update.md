@@ -11,7 +11,7 @@ Before updating, back up your data from the admin settings or back up the mounte
 Pull the latest image:
 
 ```bash
-docker pull ghcr.io/komari-monitor/komari:latest
+docker pull ghcr.io/jsllxx77/komari:latest
 ```
 
 Stop and remove the old container:
@@ -29,7 +29,7 @@ docker run -d \
   -v $(pwd)/data:/app/data \
   --name komari \
   --restart unless-stopped \
-  ghcr.io/komari-monitor/komari:latest
+  ghcr.io/jsllxx77/komari:latest
 ```
 
 The container is recreated, but the local `data` directory remains.
@@ -53,7 +53,7 @@ docker-compose up -d
 ## Binary Update
 
 1. Stop the running Komari process or service.
-2. Download the new binary from the [GitHub Releases page](https://github.com/komari-monitor/komari/releases).
+2. Download the new binary from the [GitHub Releases page](https://github.com/jsllxx77/komari/releases).
 3. Replace the old binary.
 4. Start Komari again.
 

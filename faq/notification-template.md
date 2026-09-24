@@ -60,7 +60,7 @@ Komari 提供以下模板变量，可在通知模板中使用。
 | `message` | 字符串      | 事件的详细说明或提示信息                   | ` `                    |
 | `emoji`   | 字符串      | 与事件匹配的 Emoji 图标                    | `🔴`                   |
 
-Client 结构体见：https://github.com/komari-monitor/komari/blob/b62fb1f70889fc1ac94e7c58ed928d7a27df5d09/database/models/models.go#L10
+Client 结构体见：https://github.com/jsllxx77/komari/blob/b62fb1f70889fc1ac94e7c58ed928d7a27df5d09/database/models/models.go#L10
 
 
 ### Telegram 示例代码

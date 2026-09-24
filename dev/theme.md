@@ -30,7 +30,7 @@ theme.zip
   "description": { "zh-CN": "用于 Komari 的测试主题", "en": "A test theme for Komari" },
   "version": "1.0.0",
   "author": "Akizon77",
-  "url": "https://github.com/komari-monitor/komari",
+  "url": "https://github.com/jsllxx77/komari",
   "preview": "preview.png",
   "configuration": {} // >= 1.0.5 支持
 }

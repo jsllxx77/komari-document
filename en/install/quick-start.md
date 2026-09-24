@@ -7,7 +7,7 @@ Komari can be deployed with the management script or with Docker. Both options c
 Use this on systemd-based Linux distributions such as Ubuntu and Debian.
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/komari-monitor/komari/main/install-komari.sh -o install-komari.sh
+curl -fsSL https://raw.githubusercontent.com/jsllxx77/komari/main/install-komari.sh -o install-komari.sh
 chmod +x install-komari.sh
 sudo ./install-komari.sh
 ```
@@ -23,7 +23,7 @@ docker run -d \
   -v $(pwd)/data:/app/data \
   --name komari \
   --restart unless-stopped \
-  ghcr.io/komari-monitor/komari:latest
+  ghcr.io/jsllxx77/komari:latest
 ```
 
 Open `http://<your-server-ip>:25774` in your browser. On first access, use the installation guide to create the administrator account and site settings.

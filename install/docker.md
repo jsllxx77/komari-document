@@ -13,7 +13,7 @@ docker run -d \
   -v $(pwd)/data:/app/data \
   --name komari \
   --restart unless-stopped \
-  ghcr.io/komari-monitor/komari:latest
+  ghcr.io/jsllxx77/komari:latest
 ```
 
 > 实验性：可以指定数据库参数，不指定默认使用sqlite3，详见--help参数
@@ -65,7 +65,7 @@ Komari 需要一个地方来保存它的数据（比如你的设置和记录）�
      -p 25774:25774 \
      -v $(pwd)/data:/app/data \
      --name komari \
-     ghcr.io/komari-monitor/komari:latest
+     ghcr.io/jsllxx77/komari:latest
    ```
 
 2. 这串命令做了啥？
@@ -154,7 +154,7 @@ Komari 需要一个地方来保存它的数据（比如你的设置和记录）�
 version: '3.8'
 services:
   komari:
-    image: ghcr.io/komari-monitor/komari:latest
+    image: ghcr.io/jsllxx77/komari:latest
     container_name: komari
     ports:
       - "25774:25774"

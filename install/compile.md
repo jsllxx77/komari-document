@@ -9,7 +9,7 @@
    ```
 2. 构建后端：
    ```bash
-   git clone https://github.com/komari-monitor/komari
+   git clone https://github.com/jsllxx77/komari
    cd komari
    ```
    将步骤1中生成的 `dist` 打包为 `tar + zstd -19`，并复制主题配置文件。后端启动时会将归档解压到内存中使用：

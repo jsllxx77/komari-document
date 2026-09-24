@@ -4,7 +4,7 @@ Binary deployment runs Komari directly without Docker. It is useful when you wan
 
 ## TLDR
 
-Download the matching file from the [GitHub Releases page](https://github.com/komari-monitor/komari/releases), then start Komari:
+Download the matching file from the [GitHub Releases page](https://github.com/jsllxx77/komari/releases), then start Komari:
 
 ```bash
 ./komari server -l 0.0.0.0:25774
@@ -18,7 +18,7 @@ On Windows:
 
 ## Download Komari
 
-1. Open the [GitHub Releases page](https://github.com/komari-monitor/komari/releases).
+1. Open the [GitHub Releases page](https://github.com/jsllxx77/komari/releases).
 2. Download the asset for your operating system and CPU architecture.
 3. Rename it to `komari` or `komari.exe`.
 4. Place it in a dedicated directory, such as `~/komari` on Linux or `C:\komari` on Windows.

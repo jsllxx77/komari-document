@@ -21,7 +21,7 @@ npm run build
 Backend build:
 
 ```bash
-git clone https://github.com/komari-monitor/komari
+git clone https://github.com/jsllxx77/komari
 cd komari
 mkdir -p web/public/defaultTheme
 tar -cf /tmp/komari-dist.tar -C ../komari-web/dist .

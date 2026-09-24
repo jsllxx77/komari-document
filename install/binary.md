@@ -5,7 +5,7 @@
 
 如果你知道自己在干什么，可以直接看这里
 
-[GitHub Release 页面](https://github.com/komari-monitor/komari/releases)
+[GitHub Release 页面](https://github.com/jsllxx77/komari/releases)
 
 在25774端口开启服务
 ```bash
@@ -25,7 +25,7 @@
 
 ## 步骤 1：下载 Komari 的二进制文件
 
-1. 打开浏览器，访问 Komari 的 [GitHub Release 页面](https://github.com/komari-monitor/komari/releases)。
+1. 打开浏览器，访问 Komari 的 [GitHub Release 页面](https://github.com/jsllxx77/komari/releases)。
 2. 在页面上找到最新的版本（通常在最上面，标着类似 `v1.x.x`）。
 3. 根据你的操作系统选择对应的文件：
    - **Linux**：下载类似 `komari_linux_amd64` 的文件（如果是 ARM 设备，选 `arm64`）。
